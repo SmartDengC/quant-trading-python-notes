@@ -1,4 +1,6 @@
 # quant-trading-python-notes
+[BaoStock](https://www.baostock.com/)  
+[Baostock的基础数据获取](https://datawhalechina.github.io/whale-quant/#/)
 
 一个使用 Python 代码与 Markdown 笔记系统学习量化交易的仓库，聚焦从基础概念到策略实践的持续积累。
 
