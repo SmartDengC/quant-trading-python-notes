@@ -218,6 +218,6 @@ __marimo__/
 .streamlit/secrets.toml
 
 # Project CSV data
-csv/
+output_csv/
 
 .DS_Store
