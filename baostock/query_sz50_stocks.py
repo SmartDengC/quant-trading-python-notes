@@ -21,7 +21,7 @@ while (rs.error_code == '0') & rs.next():
     sz50_stocks.append(rs.get_row_data())   # 将获取到的数据添加到列表中
 result = pd.DataFrame(sz50_stocks, columns=rs.fields)  # 使用 pandas 将数据转换为 DataFrame 格式
 # 结果集输出到csv文件
-result.to_csv("../csv/sz50_stocks.csv", encoding="gbk", index=False)  # 将结果保存为 csv 文件
+result.to_csv("../output_csv/sz50_stocks.csv", encoding="gbk", index=False)  # 将结果保存为 csv 文件
 display(result)   # 打印结果
 
 # 登出系统

@@ -23,7 +23,7 @@ df_profit = pd.DataFrame(profit_list, columns=rs_profit.fields)
 display(df_profit)
 
 # 将结果集输出到csv文件
-df_profit.to_csv("../csv/profit_data.csv", encoding="gbk", index=False)
+df_profit.to_csv("../output_csv/profit_data.csv", encoding="gbk", index=False)
 
 # 退出 BaoStock 系统
 bs.logout()

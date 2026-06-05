@@ -23,7 +23,7 @@ df_operation = pd.DataFrame(operation_list, columns=rs_operation.fields)
 display(df_operation)
 
 # 将结果集输出到csv文件
-df_operation.to_csv("../csv/operation_data.csv", encoding="gbk", index=False)
+df_operation.to_csv("../output_csv/operation_data.csv", encoding="gbk", index=False)
 
 # 退出 BaoStock 系统
 bs.logout()

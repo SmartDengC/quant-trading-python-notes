@@ -24,7 +24,7 @@ df_growth = pd.DataFrame(growth_list, columns=rs_growth.fields)
 display(df_growth)
 
 # 将结果集输出到csv文件
-df_growth.to_csv("../csv/growth_data.csv", encoding="gbk", index=False)
+df_growth.to_csv("../output_csv/growth_data.csv", encoding="gbk", index=False)
 
 # 退出 BaoStock 系统
 bs.logout()

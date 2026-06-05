@@ -32,7 +32,7 @@ while (rs.error_code == '0') & rs.next():
 result = pd.DataFrame(data_list, columns=rs.fields)
 
 # 结果集输出到csv文件
-result.to_csv("../csv/history_A_stock_k_data_d.csv", index=False)
+result.to_csv("../output_csv/history_A_stock_k_data_d.csv", index=False)
 display(result)
 
 # 登出系统

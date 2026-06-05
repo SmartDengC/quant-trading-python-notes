@@ -1,6 +1,7 @@
 # quant-trading-python-notes
 [BaoStock](https://www.baostock.com/)  
 [Baostock的基础数据获取](https://datawhalechina.github.io/whale-quant/#/)
+[python中如何一次性全部清除虚拟环境的包？](https://www.cnblogs.com/geekbruce/articles/18352755)
 
 一个使用 Python 代码与 Markdown 笔记系统学习量化交易的仓库，聚焦从基础概念到策略实践的持续积累。
 
